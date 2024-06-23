@@ -6,6 +6,7 @@
 {% block content %}
 
 hello there, obiwan kenobi
+you was like my son anakin -obiwan kenobi
 {% if user.is_authenticated %}
     Merhaba {{user.username}}
     <p><a href="{% url 'logout' %}">Çıkış</a></p>
