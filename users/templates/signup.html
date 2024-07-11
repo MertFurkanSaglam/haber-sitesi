@@ -7,7 +7,7 @@
 
 <h2>Sign up</h2>
 <form method="post">
-    {% csrftoken %}
+    {% csrf_token  %}
     {{form.as_p}}
     <button type="submit">Kayıt OL</button>
 </form>
